@@ -4,6 +4,18 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Basic
+- type: document
+  path: index.md
+  label: Random Stuff API
+  match: "**/*"
+- type: directory
+  path: examples
+  label: Examples
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: directory
   path: content
   label: Pages
