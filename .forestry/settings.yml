@@ -9,13 +9,12 @@ sections:
 - type: document
   path: index.md
   label: Random Stuff API
-  match: "**/*"
 - type: directory
   path: examples
   label: Examples
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content
   label: Pages
